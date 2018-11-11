@@ -111,7 +111,7 @@ padding: 0;
   float: left;
 }
 .userCard .text{
-  float: left;
+  float: right;
   margin-left: 65px;
   width: 470px;
 }
