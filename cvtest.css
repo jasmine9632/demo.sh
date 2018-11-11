@@ -82,81 +82,80 @@ padding: 0;
   background-color: rgba(0,0,0,0.8);
 }
 
-.userCard{
+.userCard {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
 }
-.userCard .welcome{
+.userCard .welcome {
   background: #e6686a;
   color: white;
   display: inline-block;
-  padding :4px 16px;
+  padding: 4px 16px;
   line-height: 22px;
   position: relative;
   margin-bottom: 10px;
 }
-.userCard .welcome .triangle{
+.userCard .welcome .triangle {
   display: block;
-  border:10px solid transparent;
-  width:0;
+  border: 10px solid transparent;
+  width: 0px;
   border-left-color: #e6686a;
-  border-top-width: 0;
+  border-top-width: 0px;
   position: absolute;
-  left:4px;
-  top:100%；
+  left: 4px;
+  top: 100%;
 }
-.userCard .picture{
+.userCard .picture {
   float: left;
 }
-.userCard .text{
-  float: right;
+.userCard .text {
+  float: left;
   margin-left: 65px;
   width: 470px;
 }
 .userCard .text h1{
-margin-top: 18px;
+  margin-top: 18px;
 }
 .userCard .text hr{
   margin: 20px 0;
-
 }
-.userCard .pictureAndText{
-  padding:50px;
+.userCard .pictureAndText {
+  padding: 50px;
 }
 .userCard dl dt,
 .userCard dl dd{
   float: left;
-  padding:5px 0;
+  padding: 5px 0;
+}
+.userCard dl dt{
+  width: 30%;
+  font-weight: bold;
+}
+.userCard dl dd{
+  width: 70%;
+  color: #9da0a7;
+}
 
-  }
-  .userCard dl dt{
-    width:30%;
-    font-weight: bold;
-  }
-  .userCard dl dd{
-    width:70%;
-    color: #9da0a7;
-  }
-  .userCard > footer .media{
-  background: white;
+.userCard > footer.media{
+  background: #E6686A;
   text-align: center;
-  }
-  .userCard > footer .media>a{
-    display: inline-block;
-    width: 40px;
-    line-height: 30px;
-    padding: 5px 0;
-    border-radius: 50%;
-    margin:16px;
-  }
-  .userCard > footer .media>a:hover{
-    background: #cf5d5f;
-  }
-  .userCard svg{
-    width:30px;
-    height:30px;
-    fill: white;
-    vertical-align: top;
-  }
+}
+.userCard > footer.media > a{
+  display: inline-block;
+  width: 40px;
+  line-height: 30px;
+  padding: 5px 0;
+  border-radius: 50%;
+  margin: 16px;
+}
+.userCard > footer.media > a:hover{
+  background: #CF5D5F;
+}
+.userCard svg{
+  width: 30px;
+  height: 30px; 
+  fill: white;
+  vertical-align: top;
+}
