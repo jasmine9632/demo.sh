@@ -15,6 +15,12 @@ body{
     border:none;
     border-top: 1px solid #dedede;
   }
+  ol,ul{
+    list-style: none;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+  }
   .clearfix::after {
     content: '';
     display: block;
@@ -87,6 +93,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.6);
   }
   .userCard .welcome {
     background: #e6686a;
@@ -158,4 +165,152 @@ body{
     height: 30px; 
     fill: white;
     vertical-align: top;
+  }
+  main{
+    margin-top: -370px;
+  }
+  main .downloadResume-wrapper{
+    text-align: center;
+  }
+
+  main .downloadResume{
+  font-size: 14px;
+  line-height: 16px;
+  padding: 21px 55px;
+  border: 1px solid #cdcfde;
+  background: #efefef;
+  display: inline-block;
+  border-right: 2px;
+  color: #3d4451;
+  font-weight: bold;
+  margin: 32px 0;
+  transition:  box-shadow 0.2s;
+  }
+  main .downloadResume:hover{
+    box-shadow: 0px 3px 11px 0px rgba(0,0,0,0.3);
+  }
+ .selfintroduction{
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 华文楷体;
+  font-size: 20px;
+  line-height: 1.8;
+  }
+  section.skills,
+  section.portfolio{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    
+  }
+  section.skills>h2,
+  section.portfolio>h2{
+    text-align: center;
+    color: #3d4451;
+    font-size: 34px;
+    line-height: 1.2px;
+    font-weight: 600;
+  }
+  section.skills h3{
+    font-size: 14px;
+    line-height: 1.1;
+    padding-right: 48px;
+  }
+  section.skills>ol{
+    background: white;
+    box-shadow: 0px 3px 11px 0px rgba(0,0,0,0.3);
+    padding: 42px 50px 11px;
+    margin-top: 40px;
+  }
+  section.skills>ol>li{
+    float: left;
+    width: 48%;
+    box-sizing: border-box;
+    
+   
+  }
+  section.skills>ol>li:nth-child(even){
+    float: right;
+  }
+  section.skills .progressBar{
+  height: 5px;
+  background: #fae1e1;
+  border-radius: 2px;
+  margin: 4px 0 40px;
+
+
+  }
+  section.skills .progressBar .progress{
+    height: 100%;
+    background: #e6686a;
+    width: 50%;
+    border-radius: 2px;
+  }
+  section.portfolio{
+    text-align: center;
+    margin-bottom: 150px;
+    margin-top: 100px;
+  }
+  section.portfolio>nav{
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+  }
+  section.portfolio>nav>ol{
+    
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+  }
+  section.portfolio>nav>ol>li{
+    float: left;
+    margin-left: 40px;
+    cursor: pointer;
+    
+  }
+  section.portfolio>nav>ol>li:nth-child(1){
+    margin-left: 0;
+  }
+  section.portfolio>nav .bar{
+    height: 5px;
+    background: white;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+
+    
+  }
+  section.portfolio>nav .bar-inner{
+    height: 100%;
+    background: #e6686a;
+    border-radius: 2px;
+    transition: all 0.3s;
+  }
+  section.portfolio>nav .bar.state-1 .bar-inner{
+    margin-left: 0;
+    width: 32px;
+
+  }
+  section.portfolio>nav .bar.state-2 .bar-inner{
+    margin-left: 73px;
+    width: 31px;
+    
+  }
+  section.portfolio>nav .bar.state-3 .bar-inner{
+    margin-left: 144px;
+    width: 92px;
+    
+  }
+  .portfolio .works{
+    position: relative;
+    margin-top: 12px;
+   
+  }
+  .portfolio .works> .big,
+  .portfolio .works> .small{
+   position: absolute;
   }
