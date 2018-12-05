@@ -11,11 +11,54 @@ kbd>button{
 kbd:hover>button{
     display: inline-block;
 }
-main{text-align: center;}
-#mainyyy{display: inline-block;}
-#mainyyy >div:nth-child(2){
-    margin-left: 2em;
+body{
+    background: grey url(./wall.jpg) no-repeat center center;
+    background-size: cover;
 }
-#mainyyy >div:nth-child(3){
-    margin-left: 4em;
+main{text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+.wrapper{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+#main{display: inline-block;}
+#main >div:nth-child(2){
+    margin-left: -22px;
+}
+#main >div:nth-child(3){
+    margin-left: -88px;
+}
+.key{
+    height: 40px;
+    width: 50px;
+    background: radial-gradient(ellipse at center, #292929 0%,#111111 100%);
+    border: 1px #373737;
+    color: #c5c5c5;
+    border-radius: 6px;
+    box-shadow: 0 0 0 1px #1a1b1c, 0 0 0 2px #1f2020,0 3px 0 2px #080808;   
+    font-size: 16px;
+    font-family: helvetica;   
+    position: relative;
+}
+.row{
+    margin:20px;
+}
+.row .key{
+    margin: 0 9px;
+}
+.key img{
+width: 16px;
+height: 16px;
+position: absolute;
+left:2px;
+bottom: 2px;
+}
+.key .text{
+    position: absolute;
+    left: 4px;
+    top: 2px;
 }
