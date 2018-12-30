@@ -11,22 +11,22 @@
 }
 .images>img{
     width:100%;
-    transition: all 1500ms;
+    transition: all 2s;
     position: absolute;
     top: 0;
 }
-.images>img.current{
+.current{
 left: 0;
 transform: translateX(0);
 z-index: 1;
 }
-.images>img.leave{
+.leave{
     left: 0;
     transform: translateX(-100%);
     z-index: 1;
     }
 
-    .images>img.enter{
+ .enter{
         left: 0;
         transform: translateX(100%);
         }
