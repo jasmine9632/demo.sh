@@ -7,17 +7,30 @@
         <script src="./jquery-3.3.1.min.js"></script>
     </head>
     <body>
+        <div class="container">
+                <h1>Dragon Warrior & Furious Five<br /><b>Slideshow</b></h1>
         <div class="window">
-            <div class="images">
-                <img src="./1.jpg" alt="图片" width="300" height="200">
-                <img src="./2.jpg" alt="图片" width="300" height="200">
-                <img src="./3.jpg" alt="图片" width="300" height="200">
-                <img src="./4.jpg" alt="图片" width="300" height="200">
-                <img src="./5.jpg" alt="图片" width="300" height="200">
-                <img src="./6.jpg" alt="图片" width="300" height="200">
+            <div id="slides" class="images">
+                <img src="./kongfu1.jpg" alt="图片" width="860" height="481">
+                <img src="./kongfu2.jpg" alt="图片" width="860" height="481">
+                <img src="./kongfu3.jpg" alt="图片"width="860" height="481">
+                <img src="./kongfu4.jpg" alt="图片" width="860" height="481">
+                <img src="./kongfu5.jpg" alt="图片"width="860" height="481">
+              
             </div>
         </div>
-     
+     <div class="controls" id="controls" style="text-align: center;">
+     <button id="previous">上一张</button>
+     <button id="next">下一张</button>
+     </div>
+     <div id="buttonWrapper" style="text-align: center;">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+         </div>
+    </div>
         <script src="./main.js"></script>
     </body>
 </html>
