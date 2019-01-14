@@ -321,57 +321,26 @@ section.portfolio {
   text-align: center;
   margin-bottom: 150px;
   margin-top: 100px;
+  max-width: 720px
 }
-section.portfolio > nav {
-  text-align: center;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 50px;
+section.portfolio h2{
+  margin-bottom: 36px;
 }
-section.portfolio > nav > ol {
-  display: inline-block;
-  vertical-align: top;
-  margin: 0 auto;
+section.portfolio .swiper-container {
+    width: 588px;
+    height: 441px;
 }
-section.portfolio > nav > ol > li {
-  float: left;
-  margin-left: 40px;
-  cursor: pointer;
+section.portfolio .swiper-button-prev,
+section.portfolio .swiper-button-next{
+  
+  background-color: white;
+  width: 64px;
+  height: 64px;
+  right: 100%;
+  left:auto;
+  border-radius: 50%;
 }
-section.portfolio > nav > ol > li:nth-child(1) {
-  margin-left: 0;
+section.portfolio .swiper-button-next{
+  left:100%;
+  right:auto;
 }
-section.portfolio > nav .bar {
-  height: 5px;
-  background: white;
-  margin-top: 5px;
-  margin-bottom: 20px;
-  border-radius: 2px;
-}
-section.portfolio > nav .bar-inner {
-  height: 100%;
-  background: #e6686a;
-  border-radius: 2px;
-  transition: all 0.3s;
-}
-section.portfolio > nav .bar.state-1 .bar-inner {
-  margin-left: 0;
-  width: 32px;
-}
-section.portfolio > nav .bar.state-2 .bar-inner {
-  margin-left: 73px;
-  width: 31px;
-}
-section.portfolio > nav .bar.state-3 .bar-inner {
-  margin-left: 144px;
-  width: 92px;
-}
-.portfolio .works {
-  position: relative;
-  margin-top: 12px;
-}
-.portfolio .works > .big,
-.portfolio .works > .small {
-  position: absolute;
-}
-
