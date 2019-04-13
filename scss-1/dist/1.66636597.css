@@ -1,0 +1,22 @@
+.demo, .nav > ul > li {
+  box-shadow: 0 0 3px black;
+  margin: 10px;
+  background: white;
+  border-radius: 3px;
+}
+
+.nav {
+  border: 3px solid blue;
+}
+.nav > ul {
+  background: white;
+}
+.nav > ul > li {
+  text-align: center;
+}
+
+.demo {
+  height: 200px;
+}
+
+/*# sourceMappingURL=/1.66636597.css.map */

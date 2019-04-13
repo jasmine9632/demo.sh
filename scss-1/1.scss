@@ -1,0 +1,28 @@
+$grey:orange;
+$border-width:3px;
+%box {
+    box-shadow: 0 0 3px black;
+    margin: 10px;
+    background: white;
+    border-radius: 3px;
+}
+
+@mixin ta {
+    text-align: center;
+}
+
+.nav {
+    border: $border-width solid blue;
+    >ul {
+        background: white;
+        >li {
+            @include ta;
+            @extend %box;
+        }
+    }
+}
+
+.demo {
+    @extend %box;
+    height: 200px;
+}
